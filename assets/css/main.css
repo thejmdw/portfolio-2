@@ -712,6 +712,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.main.my-face img {
+			margin: auto;
+			width: 75%;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
