@@ -1020,6 +1020,10 @@ input, select, textarea {
 			}
 
 /* Button */
+	
+	.buttons {
+		margin: 0 .75rem 0 0;
+	}
 
 	input[type="submit"],
 	input[type="reset"],
