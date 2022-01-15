@@ -5,6 +5,8 @@
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	logo at 1327
 */
 
 html, body, div, span, applet, object,
@@ -1322,7 +1324,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			/* border: solid 1px #ffffff; */
 			border-radius: 100%;
 		}
 
@@ -1578,6 +1580,11 @@ input, select, textarea {
 			border-radius: 4px;
 			opacity: 0;
 		}
+
+		#main article li {
+			list-style: none;
+		}
+		
 		article#intro {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
