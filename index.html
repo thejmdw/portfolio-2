@@ -65,7 +65,7 @@
 								<br>
 								<div>
 									<h3 class="project">Dub's Doubles</h3>
-									<h4 class="project">Back End Project</h4>
+									<h4 class="project">React / Django</h4>
 									<span class="image main"><img src="images/dubsDoubles1.png" alt="" /></span>
 									<p>An easy to use app that allows customers to order cheeseburgers and allows the manager/owner to operate the business using an admin dashboard.</p>
 									<a href="#dubs-doubles" class="button small">...More</a>
@@ -73,7 +73,7 @@
 								<br>
 								<div>
 									<h3 class="project">Swipe Home</h3>
-									<h4 class="project">Front End Project</h4>
+									<h4 class="project">React / JSON-Server</h4>
 									<span class="image main"><img src="images/swipeHome1.png" alt="SwipeHome screenshot" /></span>
 									<p>An intuitive house finding app based on a well known app that utilizes swiping.</p>
 									<a href="#swipe-home" class="button small">...More</a>
@@ -83,6 +83,14 @@
 						<!-- Dub's Doubles -->
 							<article id="dubs-doubles">
 								<h3 class="major">Dub's Doubles</h3>
+								<p>I created this app for my hypothetical cheeseburger restaurant. 
+									I wanted to give my customers the ability to pre-order burgers for pick-up, so I built a client facing POS system. 
+									I also wanted the ability to manage my app as the owner, so I built an admin dashboard with charts to show different data.
+								</p>
+								<p>Since this project was focused on the server, I wanted to deepen my knowledge of Django by exploring Many-To-Many relationships 
+									and also wanted to learn how to use custom SQL queries to transform data into a format that was plottable on the frontend dashboard charts.
+									I chose to keep the client frontend minimal to ensure a high conversion rate, while using Material UI as much as possible.
+								</p>
 								<h4 class="major">Tech Stack</h4>
 								<ul>
 									<li>HTML 5</li>
@@ -97,29 +105,71 @@
 								<div class="buttons">
 									<a target="_blank" href="https://github.com/thejmdw/dubs-doubles-client" class="button buttons">GitHub Client Repo</a>
 									<a target="_blank" href="https://github.com/thejmdw/dubs-doubles-server" class="button buttons">GitHub Server Repo</a>
-									<a target="_blank" href="https://dubs.thejmdw.com" class="button">Demo</a>
+									<a target="_blank" href="https://dubs.thejmdw.com" class="button primary">Demo</a>
 								</div>
 							</article>
 						
 						<!-- Swipe Home -->
 							<article id="swipe-home">
 								<h3 class="major">Swipe Home</h3>
-								<h4 class="major">Tech Stack</h4>
+								<p>I thought of this app while looking for houses to rent. While growing bored with scrolling through houses on the other apps, 
+									I thought it would be neat to be able to swipe left or right through a stack.
+								</p>
+								<p>
+									The learning goals of this client side project were to solidify CRUD functionality, familiarize myself with React, 
+									learn how to handle multiple 3rd party APIs, to explore Material UI, and mainly to have fun. The server is currently built with <a target="_blank" href="https://www.npmjs.com/package/json-server">JSON-Server</a>, a fake REST API.
+								</p>
+								<h4 class="major">App Story</h4>
+								<ol>
+									<li>--*-User Walkthrough-*--</li>
+									<li>- Login using the User credentials below. Upon login you are greeted with an automajically generated avatar that can be changed by uploading your own photo in the User Profile.</li>
+									<li>- Click Search. Enter some search criteria. Choose whether you're buying or renting. Click Submit Search</li>
+									<li>- Swipe Left or Right on the houses. Swiping Left will remove the house from the stack, while Swiping Right will add the house to a list of favorites.</li>
+									<li>- Click the User Profile icon located in the the Nav Bar. From this screen you can view past Searches, edit info, go to your Faves, and log out.</li>
+									<li>- Click Faves. Here you can choose to remove them from the stack by Swiping Left, keep them in the stack, by Swiping Right, or check out more details by clicking on the photo.</li>
+									<li>- Click a photo. The Fave details card features a photo carousel, a list of features, and an embedded map of it's location.</li>
+									<li>- Click the Messages icon the Nav Bar. Click the Message bubble. You have entered the Chat.</li>
+									<li>- FIN</li>
+									<li></li>
+									<li></li>
+								</ol>
+								<ol>
+									<li>--*-Agent Walkthrough-*--</li>
+									<li>- Login using the Agent credentials below.</li>
+									<li>- Same functionality as the User, but also has the ability to list houses from the Home Screen.</li>
+									<li>- FIN</li>
+									<li></li>
+									<li></li>
+								</ol>
+								<h4 class="major">Demo Credentials</h4>
 								<ul>
-									<li>HTML 5</li>
-									<li>CSS 3</li>
-									<li>JavaScript</li>
-									<li>React JS</li>
-									<li>Material UI</li>
-									<li>JSON-Server</li>
-									<li>Axios</li>
-									<li>Google Maps API</li>
-									<li>Rapid API</li>
-									<li>Cloudinary</li>
+									<li><u>Client:</u> client@swipehome.com</li>
+									<li><u>Agent:</u> agent@swipehome.com</li>
+								</ul>
+								<div>
+									<h4 class="major">Tech Stack</h4>
+									<ul>
+										<li>HTML 5</li>
+										<li>CSS 3</li>
+										<li>JavaScript</li>
+										<li>React JS</li>
+										<li>Material UI</li>
+										<li>JSON-Server</li>
+										<li>Axios</li>
+										<li>Google Maps API</li>
+										<li>Rapid API</li>
+										<li>Cloudinary</li>
+									</ul>
+								</div>
+								<h4 class="major">To Do</h4>
+								<ul>
+									<li>Rebuild server with Django - <em>in progress 1/19/22</em></li>
+									<li>Make Agent Listings editable</li>
 								</ul>
 								<div class="buttons">
-									<a target="_blank" href="https://github.com/thejmdw/capstone" class="button buttons">GitHub Repo</a>
-									<a target="_blank" href="https://swipehome.thejmdw.com" class="button">Demo</a>
+									<a target="_blank" href="https://github.com/thejmdw/capstone" class="button buttons">GitHub Client Repo</a>
+									<a target="_blank" href="https://github.com/thejmdw/swipehome-server" class="button buttons">GitHub Server Repo</a>
+									<a target="_blank" href="https://swipehome.thejmdw.com" class="button primary">Demo</a>
 								</div>
 							</article>
 
@@ -133,7 +183,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="post" action="mailto:thejmdw@gmail.com" method="POST" enctype="text/plain">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
