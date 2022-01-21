@@ -747,6 +747,11 @@ input, select, textarea {
 
 /* List */
 
+	.demo {
+		display: flex;
+		justify-content: space-around;
+	}
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
